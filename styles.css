@@ -1,0 +1,86 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #fff !important;
+}
+
+.hero {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.features img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.team img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Buttons */
+.btn {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+/* Responsive Features Section */
+@media (max-width: 768px) {
+  .features .col-md-4 {
+    margin-bottom: 20px;
+  }
+}
+
+/* Team Section */
+.team .col-md-4 {
+  margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+}
+
+footer h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+footer form .form-control {
+    border-radius: 4px;
+}
+
+footer form .btn {
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
